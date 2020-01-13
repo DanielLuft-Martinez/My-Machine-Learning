@@ -1,0 +1,44 @@
+App Exit during training also exits current run, wont be able to classify
+
+Users can’t access previously trained models yet
+Always need to train a model before submitting a prediction currently
+
+Images sent to the server should be kept under 10MB
+
+Not thoroughly tested for unexpected inputs to model
+
+You should not mess up the busy cats.(don’t exit app while it’s loading)
+
+User data not secure going to Flask server
+
+No logout button, must be done with android “back” button
+
+Not a lot of in app explanation, not new user friendly
+
+Does not directly teach about Machine Learning, more of a sample for now.
+
+Only one user may train at a time, does not support concurrent users
+
+Datasets are not all of the same quality.
+
+App not formatted properly for all phones
+
+Crashing on image upload from phone sometimes
+
+Sample data for some datasets not showing properly, showing chihuahua instead
+
+Crashing on larger loads
+
+Cannot train on a single dataset
+
+Training result images do not open in a nice/usable format
+
+Occasionally will show past training/layer images instead of Results from the current run
+
+
+If the server crashes during training, the app will experience unexpected behaviour
+
+If the server crashes unexpectedly, previously saved models may be lost
+
+Will only classify on RGB images, not set up for images with extra transparency/color  layer
+

@@ -1,0 +1,52 @@
+// This is not a legitimate json file, obviously. Each section represents possible json formats to be sent
+// to and from the server.
+
+{
+    "type" : "train",
+    "sample" : true,
+    "dataset" : ["corgi", "jet", "apple"],
+    "epochs" : 10,
+    "user" : "user's_firebase_id"
+}
+
+{
+    "type" : "predict",
+    "model" : "My model name",
+    "images" : ["image1_data", "image2_data"],
+    "user" : "user's_firebase_id"
+}
+
+{
+    "type" : "train_response",
+    "success" : true
+}
+
+{
+    "type" : "train_response",
+    "success" : false,
+    "trained" : true,
+    "loaded" : false,
+    "error" : "Model was trained successfully, but failed to load into server."
+}
+
+{
+    "type" : "train_response",
+    "success" : false,
+    "trained" : false,
+    "loaded" : false,
+    "error" : "An error occurred during training."
+}
+
+{
+    "type" : "predict_response",
+    "success" : true,
+    "predictions" : ["image1_prediction", "image2_prediction"]
+}
+
+{
+    "type" : "predict_response",
+    "success" : false,
+    "specified" : false,
+    "loaded" : false,
+    "error" : "No model was specified to use for prediction."
+}

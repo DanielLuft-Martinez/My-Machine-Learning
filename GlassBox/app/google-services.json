@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "917967562914",
+    "firebase_url": "https://myml-bc6c6.firebaseio.com",
+    "project_id": "myml-bc6c6",
+    "storage_bucket": "myml-bc6c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917967562914:android:341ad34d24e7ffdc",
+        "android_client_info": {
+          "package_name": "com.example.glassbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917967562914-tq0aomra21bo6v8tb0vdegdp89fk5c6i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.glassbox",
+            "certificate_hash": "81cbfbb098db6775afcde1d5f290a7fad48ef928"
+          }
+        },
+        {
+          "client_id": "917967562914-8ctrfd7qu49vk0ojat9ivs8fj024935d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCewJXj_IFE4kzBnG91SPxiv0BjZihFoR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917967562914-8ctrfd7qu49vk0ojat9ivs8fj024935d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.glassbox">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_mml"
+        android:label="MML"
+        android:roundIcon="@mipmap/ic_launcher_mml_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <uses-library android:name="org.apache.http.legacy" android:required="false" />
+        <activity android:name=".ServerConnectionBasicActivity" />
+        <activity android:name=".ImageUploadActivity" />
+        <activity android:name=".UploadImageShowActivity" />
+        <activity android:name=".ChooseDataset" />
+        <activity android:name=".TraningResultsActivity" />
+        <activity android:name=".HomeActivity"/>
+
+
+        <activity android:name=".SampleImageShowActivity" />
+        <activity android:name=".CreateAccountActivity" />
+        <activity android:name=".ChooseModelActivity" />
+        <activity android:name=".PhotosActivity"/>
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TestResultsActivity" />
+        <activity android:name=".Loading"/>
+        <activity android:name=".ShowSelectedDataActivity" android:theme="@android:style/Theme.Dialog" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

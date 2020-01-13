@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="170dp"
+    android:layout_height="230dp"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/mouse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mouse" />
+
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cat" />
+
+        <ImageView
+            android:id="@+id/eye_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4.5dp"
+            android:layout_marginTop="17dp"
+            android:src="@drawable/eyes" />
+
+        <com.example.glassbox.EyelidView
+            android:id="@+id/eyelid_left"
+            android:layout_width="24dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="4.5dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/eyes" />
+
+        <ImageView
+            android:id="@+id/eye_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="17dp"
+            android:src="@drawable/eyes" />
+
+        <com.example.glassbox.EyelidView
+            android:id="@+id/eyelid_right"
+            android:layout_width="24dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/eyes" />
+    </RelativeLayout>
+
+    <com.example.glassbox.GraduallyTextView
+        android:id="@+id/graduallyTextView"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="L O A D I N G ... "
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/actor</item>
+        <item>@font/advent_pro</item>
+        <item>@font/alex_brush</item>
+        <item>@font/anaheim</item>
+        <item>@font/archivo_black</item>
+        <item>@font/bungee_inline</item>
+        <item>@font/candal</item>
+        <item>@font/cuprum_bold</item>
+        <item>@font/doppio_one</item>
+        <item>@font/trade_winds</item>
+    </array>
+</resources>

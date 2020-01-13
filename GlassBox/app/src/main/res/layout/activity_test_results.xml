@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/results_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/candal"
+        android:gravity="center"
+        android:text="Test Results"
+        android:textColor="#ffffff"
+        android:textIsSelectable="false"
+        android:textSize="15pt" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="600dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TextView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/actor"
+                android:gravity="center"
+                android:text="Tested Image"
+                android:textColor="#ffffff"
+                android:textSize="10pt" />
+
+            <ImageView
+                android:id="@+id/ImageView1"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:src="@drawable/logo_image" />
+
+            <TextView
+                android:id="@+id/TextView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/actor"
+                android:gravity="center"
+                android:text="Layer Visualization"
+                android:textColor="#ffffff" />
+
+            <ImageView
+                android:id="@+id/ImageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo_image" />
+
+            <TextView
+                android:id="@+id/TextView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/actor"
+                android:gravity="center"
+                android:text="Predictions"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/TextView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/anaheim"
+                android:padding="30dp"
+                android:textAllCaps="false"
+                android:text="Predictions"
+                android:textColor="#ffffff" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="73dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/candal"
+            android:background="@drawable/white_button"
+            android:text="Back" />
+
+        <Button
+            android:id="@+id/finish_button"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/candal"
+            android:background="@drawable/white_button"
+            android:text="Finish" />
+    </LinearLayout>
+
+</LinearLayout>

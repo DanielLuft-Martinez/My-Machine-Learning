@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dip"
+    android:orientation="horizontal"
+    android:background="#000000">
+
+    <CheckBox
+        android:id="@+id/lblListItem"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:buttonTint="#ff3d99"
+        android:checked="false"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="17dip" />
+
+    <Button
+        android:id="@+id/button_show"
+        android:layout_width="70dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/black_button"
+        android:layout_height="wrap_content"
+        android:text="Sample" />
+
+</LinearLayout>
